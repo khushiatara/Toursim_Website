@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testimonials</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Testimonials Section -->
+<section id="testimonials" class="section">
+    <div class="container">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial">
+                <p>"Paris was breathtaking! The tour was perfectly organized. I can’t wait to travel again with ExploreWorld!"</p>
+                <h4>- Sarah Johnson</h4>
+            </div>
+            <div class="testimonial">
+                <p>"We had an amazing time in the Maldives. Everything was beyond our expectations. Highly recommend!"</p>
+                <h4>- David Lee</h4>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
