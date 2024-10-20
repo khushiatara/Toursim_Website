@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Packages - ExploreWorld</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ExploreWorld</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="packages.html">Tour Packages</a></li>
+                    <li><a href="index.html#destinations">Destinations</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="packages" class="section">
+        <div class="container">
+            <h2>Our Tour Packages</h2>
+            <div class="package-cards">
+                <div class="package-card">
+                    <h3>European Explorer</h3>
+                    <p>Explore the best of Europe with our 10-day tour covering France, Italy, and Spain. Starting from $2500.</p>
+                </div>
+                <div class="package-card">
+                    <h3>Maldives Paradise</h3>
+                    <p>Experience the crystal clear waters of the Maldives. 7 days all-inclusive stay at a luxury resort. Starting from $3000.</p>
+                </div>
+                <div class="package-card">
+                    <h3>New York City Lights</h3>
+                    <p>Discover the charm of NYC with our 5-day city tour covering landmarks, nightlife, and culture. Starting from $1800.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ExploreWorld. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
