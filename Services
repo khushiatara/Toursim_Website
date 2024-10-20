@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Services Section -->
+<section id="services" class="section">
+    <div class="container">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Flight Bookings</li>
+            <li>Hotel Reservations</li>
+            <li>Tour Packages</li>
+            <li>Local Guides</li>
+            <li>Car Rentals</li>
+        </ul>
+    </div>
+</section>
+</body>
+</html>
