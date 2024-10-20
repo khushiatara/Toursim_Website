@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        .month {
+            border: 1px solid black;
+            height: 360px;
+            width: 230px;
+            padding: 8px;
+
+
+        }
+        body{
+            justify-content:center ;
+            align-items: center;
+            display: flex;
+        }
+
+        .section{
+            height: 800px;
+            width: 350px;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2><br>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <div class="month" style="text-align: left;">
+
+                    <label for="date">Preffered Month to Travel:</label><br>
+
+                    <input type="radio" id="jan" name="month" value="January">
+                    <label for="jan">January</label><br>
+
+                    <input type="radio" id="feb" name="month" value="February">
+                    <label for="feb">February</label><br>
+
+                    <input type="radio" id="mar" name="month" value="March">
+                    <label for="mar">March</label><br>
+
+                    <input type="radio" id="apr" name="month" value="April">
+                    <label for="apr">April</label><br>
+
+                    <input type="radio" id="may" name="month" value="May">
+                    <label for="may">May</label><br>
+
+                    <input type="radio" id="june" name="month" value="June">
+                    <label for="june">June</label><br>
+
+                    <input type="radio" id="july" name="month" value="July">
+                    <label for="july">July</label><br>
+
+                    <input type="radio" id="aug" name="month" value="August">
+                    <label for="aug">August</label><br>
+
+                    <input type="radio" id="sept" name="month" value="September">
+                    <label for="sept">September</label><br>
+
+                    <input type="radio" id="oct" name="month" value="October">
+                    <label for="oct">October</label><br>
+
+                    <input type="radio" id="nov" name="month" value="November">
+                    <label for="nov">November</label><br>
+
+                    <input type="radio" id="dec" name="month" value="December">
+                    <label for="dec">December</label><br>
+
+                </div><br><br>
+
+
+
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
